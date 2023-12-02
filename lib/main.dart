@@ -12,6 +12,7 @@ class QuizApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: const HomePage(),
+      //* create routes to pushName of the pages
       routes: {
         '/homepage': (context) => const HomePage(),
         '/quizpage': (context) => const QuizPage(),
